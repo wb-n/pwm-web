@@ -620,3 +620,24 @@ darasa{
         justify-content: center;
     }
 }
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+  .Watchoursermons iframe {
+      width: 100%;
+      height: auto;
+  }
+
+  .about__description {
+      font-size: 1rem;
+  }
+
+  .section-title {
+      font-size: 2rem;
+  }
+
+  .about__container {
+      grid-template-columns: 1fr;
+      padding: 0 10px; /* Adjust padding to prevent overflow */
+  }
+}
